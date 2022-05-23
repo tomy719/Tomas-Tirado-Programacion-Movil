@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblCotizaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Cotizaciones"
+            android:textSize="30dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtNumeroCotizacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="No° de Cotizacion">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Descripcion">
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Precio">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/txtPorcentajeIni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Porcentaje Inicial:">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/txtPlazo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Plazo">
+        </EditText>
+
+
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular">
+        </Button>
+
+
+
+
+        <TextView
+            android:id="@+id/lblNumerodeCotizacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/lblDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblPorcentajeIni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblPlazo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblTotalaFin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblPagoInicial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblPagoMensual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp">
+        </TextView>
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
